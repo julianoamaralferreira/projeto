@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form action="\newFuncionario" method="POST">
+      <ul><label>Nome Funcionario:</label><input type="text" name="nome"/></ul>
+      <ul><label>Matricula Funcionario:</label><input type="number" name="matricula"/></ul>
+      <ul><label>RG Funcionario:</label><input type="text" name="rg"/></ul>
+      <ul><label>CPF:</label><input type="number" name="cpf"/></ul>
+      <ul><label>Rua:</label><input type="text" name="rua"/></ul>
+      <ul><label>N residencia:</label></ul>
+      <ul><input type="number" name="nresidencia"/></ul>
+      <ul><label>Cidade:</label><input type="text" name="cidade"/></ul>
+      <ul><label>Nome Bairro:</label><input type="text" name="bairro"/></ul>
+      <input type="submit" value="Enviar"></ul>
+    </form>
+  </body>
+</html>

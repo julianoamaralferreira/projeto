@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  </head>
+  <body>
+ <h1><%= title %></h1>
+<ul>
+  <% documento.forEach(function(funcionario){%>
+  <li><%= dados.nome %></li>
+  <%})%>
+</ul>
+<ul><a href="/new">Cadastrar nova empresa</a></ul> 
+<ul><a href="/newFuncionario">Cadastrar novo funcionario</a></ul>
+
+</body>
+</html>
